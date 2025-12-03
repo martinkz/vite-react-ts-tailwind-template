@@ -6,7 +6,7 @@ function App() {
 
 	return (
 		<>
-			<button className="p-4 bg-zinc-700 rounded-lg" onClick={() => setCount((count) => count + 1)}>
+			<button className="p-4 bg-indigo-600 text-white rounded-lg" onClick={() => setCount((count) => count + 1)}>
 				Count is {count}
 			</button>
 		</>
